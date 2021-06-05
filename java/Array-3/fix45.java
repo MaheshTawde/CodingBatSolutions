@@ -1,4 +1,6 @@
-	public int[] fix45(int[] nums) {
+/*This solution iterates through array only with one loop the second loop only runs for all the 4s overall complexity is O(n)*/
+
+public int[] fix45(int[] nums) {
 
 		List<Integer> positionOf4s = new ArrayList<Integer>();
 		List<Integer> positionOf5s = new ArrayList<Integer>();
